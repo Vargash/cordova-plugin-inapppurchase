@@ -845,8 +845,8 @@ public class IabHelper {
 
     int queryPurchases(Inventory inv, String itemType) throws JSONException, RemoteException {
         // Query purchases
-        logDebug("Querying owned items, item type: " + itemType);
-        logDebug("Package name: " + mContext.getPackageName());
+        // logDebug("Querying owned items, item type: " + itemType);
+        // logDebug("Package name: " + mContext.getPackageName());
         boolean verificationFailed = false;
         // Only allow purchase verification to be skipped if we are debuggable
         boolean skipPurchaseVerification = (this.mSkipPurchaseVerification  &&
